@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/icon2.png" type="image/png">
+    <title>Best Ecommerce Platform in India | Custom Ecommerce Software for Your Needs | Shopify</title>
+    
+
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+     <!-- tailwind config -->
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              screens: {
+                  md: "750px",
+                  lg: "1080px",
+                  xl: "1440px"
+              },
+              colors: {
+                "shopify-green": "#008060",
+                "shopify-green-dark": "#004c3f",
+              },
+            }
+          }
+        }
+      </script>
+<!-- custom styling -->
+<style>
+    @font-face {
+        font-family: "ShopifySans";
+        src: url("./fonts/ShopifySans--regular.woff2") format("woff2");
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "ShopifySans";
+        src: url("./fonts/ShopifySans--medium.woff2") format("woff2");
+        font-weight: 500;
+    }
+    @font-face {
+        font-family: "ShopifySans";
+        src: url("./fonts/ShopifySans--bold.woff2") format("woff2");
+        font-weight: 700;
+    }
+    @font-face {
+        font-family: "ShopifySans";
+        src: url("./fonts/ShopifySans--extrabold.woff2") format("woff2");
+        font-weight: 900;
+    }
+
+    body {
+        font-family: "ShopifySans", sans-serif;
+    }
+  </style>  
+</head>
+<body>
+ <!-- Header -->
+ <div id="top" class="mb-0 sm:mb-[60px]">
+    <div
+        class="bg-[#fbf7ed] max-w-[1600px] mx-auto px-[6%] h-[80px] fixed z-50 left-0 right-0 top-0"
+    >
+        <nav class="flex items-center h-full">
+            <div class="mr-0 md:mr-[2.5rem] scale-125 cursor-pointer">
+                <img src="./assets/shopify-logo.svg" alt="shopfiy-logo">
+            </div>
+
+            <div
+                class="flex gap-8 font-[550] text-[#42474c] mr-auto"
+            >
+                <span
+                    class="hidden lg:flex items-center gap-2 cursor-pointer hover:text-[#212326]"
+                    ><a class="text-[17px]" href="#">Start</a>
+                    <i
+                        class="fa-solid fa-angle-down text-[12px] text-[#767f88] hover:text-[#212326]"
+                    ></i>
+                </span>
+                <span
+                    class="hidden lg:flex items-center gap-2 cursor-pointer hover:text-[#212326]"
+                    ><a class="text-[17px]" href="#">Sell</a>
+                    <i
+                        class="fa-solid fa-angle-down text-[12px] text-[#767f88] hover:text-[#212326]"
+                    ></i>
+                </span>
+                <span
+                    class="hidden lg:flex items-center gap-2 cursor-pointer hover:text-[#212326]"
+                    ><a class="text-[17px]" href="#">Market</a>
+                    <i
+                        class="fa-solid fa-angle-down text-[12px] text-[#767f88] hover:text-[#212326]"
+                    ></i>
+                </span>
+                <span
+                    class="hidden lg:flex items-center gap-2 cursor-pointer hover:text-[#212326]"
+                    ><a class="text-[17px]" href="#">Manage</a>
+                    <i
+                        class="fa-solid fa-angle-down text-[12px] text-[#767f88] hover:text-[#212326]"
+                    ></i>
+                </span>
+            </div>
+
+            <div class="flex gap-8 font-[550] text-[#42474c]">
+                <span
+                    class="hidden lg:flex items-center gap-2 cursor-pointer hover:text-[#212326]"
+                    ><a class="text-[17px]" href="#">Pricing</a>
+                </span>
+                <span
+                    class="hidden lg:flex items-center gap-2 cursor-pointer hover:text-[#212326]"
+                    ><a class="text-[17px]" href="#">Learn</a>
+                    <i
+                        class="fa-solid fa-angle-down text-[12px] text-[#767f88] hover:text-[#212326]"
+                    ></i>
+                </span>
+                <span
+                    class="flex items-center gap-2 cursor-pointer hover:text-[#212326]"
+                    ><a class="text-[17px]" href="#">Log in</a>
+                </span>
+                <span
+                    class="hidden lg:flex items-center gap-2 cursor-pointer text-[16px] font-[900] bg-shopify-green hover:bg-shopify-green-dark hover:shadow-xl duration-200 text-white box-border rounded-[4px] px-[19px] py-[10px] shadow-lg mr-[20px]"
+                    ><button>Try for free</button>
+                </span>
+                <span class="lg:hidden cursor-pointer"
+                    ><i class="fa-solid fa-bars text-[20px]"></i>
+                </span>
+            </div>
+        </nav>
+    </div>
+  </div>   
+
+<!-- page container -->
+<div class="max-w-[1600px] mx-auto">
+    <main class="relative">
+
+        <!-- Hero section -->
+        <section
+            class="block relative pt-[120px] md:pb-[0px] lg:pb-[96px] sm:pt-[24px] lg:pt-[130px] bg-[#fbf7ed]"
+        >
+            <div
+                class="flex items-center pb-[28px] md:pb-0 flex-wrap min-h-[400px] px-[5%]"
+            >
+                <div
+                    class="block relative w-[100%] float-left px-[4px] md:max-w-[65%] pr-0 lg:pr-[80px] lg:w-[50%]"
+                >
+                    <div>
+                        <h1
+                            class="max-w-[18ch] leading-[44px] lg:leading-[60px] text-[#004c3f] text-[2em] lg:text-[3em] font-[900] mb-[32px] lg:mb-[0.5em]"
+                        >
+                            The easiest way to sell online in India
+                        </h1>
+                        <p
+                            class="text-[#6b7177] leading-[24px] font-[200] mb-[32px] text-[18px] lg:text-[20px]"
+                        >
+                            Try one of the most powerful platforms on
+                            the market for free. No technical knowledge
+                            needed.
+                        </p>
+                    </div>
+                    <div class="flex items-center flex-wrap gap-4">
+                        <input
+                            type="text"
+                            placeholder="Enter your email address"
+                            class="min-w-[250px] block shrink-0 py-[14px] px-[15px] border-[2px] rounded-md focus:border-[2.5px] focus:border-[#038d76] outline-none border-gray-400 grow-[999]"
+                        />
+                        <span
+                            class="flex items-center gap-2 grow-[1] justify-center text-center cursor-pointer text-[16px] font-[700] bg-shopify-green hover:bg-shopify-green-dark hover:shadow-xl duration-200 text-white box-border rounded-[4px] px-[24px] py-[14px] shadow-lg"
+                        >
+                            <button class="block">Try for free</button>
+                        </span>
+
+                        <p class="text-[12px] text-[#42474c] mt-[8px]">
+                            Try Shopify free for 14 days, no credit card
+                            required. By entering your email, you agree
+                            to receive marketing emails from Shopify.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="relative lg:absolute top-[20px] md:top-[70px] bottom-0 w-[100%] lg:w-[50%] right-0 before:content-[''] before:block before:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 before:w-[100%] before:from-[rgba(0,0,0,0)] before:via-[rgba(0,0,0,0)] before:to-[rgba(0,0,0,.08)] z-10"
+            >
+
+                <video
+                    class="w-[100%]"
+                    autoplay="true"
+                    loop="true"
+                    playsinline="playsinline"
+                    muted
+                    poster="./assets/video-poster.webp"
+                >
+                <source
+                        src="./assets/hero-video.mp4"
+                        type="video/mp4"
+                    >
+                    <source
+                src="./assets/hero-video.webm"
+                type="video/webm"
+            />
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </div>
+        </section>
+
+        <!-- online business -->
+        <section
+          class="bg-shopify-green-dark text-white px-[2%] md:px-[5%] pt-[100px] py-[4em] md:py-[6em]"
+        >
+          <div class="px-[18px]">
+            <div class="pb-[3em]">
+                <div class="pb-2">
+                    <h1 class="text-[1.75em] lg:text-[2.5em]">
+                        Bring your business online
+                    </h1>
+                </div>
+                <div class="flex flex-col pb-[58px]">
+                    <div class="xl:w-[75%]">
+                        <p class="text-[1em] pb-[14px]">
+                            Create an ecommerce website backed by
+                            powerful tools that help you find
+                            customers, drive sales, and manage your
+                            day-to-day.
+                        </p>
+                    </div>
+                    <div
+                        class="w-full xl:w-[25%]"
+                    >
+                        <div
+                            class="flex items-center gap-1 group cursor-pointer justify-start xl:justify-end"
+                        >
+                            <span class="font-[700] text-[#FFFFFF]"
+                                >Explore more examples
+                            </span>
+                            <span
+                                class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path
+                                        fill="#FFFFFF"
+                                        d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+                                    ></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 [&>div:nth-child(5)]:hidden lg:[&>div:nth-child(5)]:block"
+                >
+                    <div>
+                        <div class="max-w-[264px]">
+                            <img
+                                src="./assets/food and drink.webp"
+                                alt="food & drink image"
+                                class="w-full block"
+                            />
+                        </div>
+                        <div class="mt-[14px] group cursor-pointer">
+                            <p
+                                class="font-[700] group-hover:underline uppercase text-[14px]"
+                            >
+                                Food & Drink
+                            </p>
+                            <p class="text-[18px]">Blue Tokai</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="max-w-[264px]">
+                            <img
+                                src="./assets/jewellery.webp"
+                                alt="Jewelery image"
+                                class="w-full block"
+                            />
+                        </div>
+                        <div class="mt-[14px] group cursor-pointer">
+                            <p
+                                class="font-[700] group-hover:underline uppercase text-[14px]"
+                            >
+                                Jewelery
+                            </p>
+                            <p class="text-[18px]">Quirksmith</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="max-w-[264px]">
+                            <img
+                                src="./assets/electronics.webp"
+                                alt="Electronics image"
+                                class="w-full block"
+                            />
+                        </div>
+                        <div class="mt-[14px] group cursor-pointer">
+                            <p
+                                class="font-[700] group-hover:underline uppercase text-[14px]"
+                            >
+                                Electronics
+                            </p>
+                            <p class="text-[18px]">Crossbeats</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="max-w-[264px]">
+                            <img
+                                src="./assets/beauty.webp"
+                                alt="Beauty image"
+                                class="w-full block"
+                            />
+                        </div>
+                        <div class="mt-[14px] group cursor-pointer">
+                            <p
+                                class="font-[700] group-hover:underline uppercase text-[14px]"
+                            >
+                                Beauty
+                            </p>
+                            <p class="text-[18px]">Mcaffeine</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="max-w-[264px]">
+                            <img
+                                src="./assets/fashion.webp"
+                                alt="fashion image"
+                                class="w-full block"
+                            />
+                        </div>
+                        <div class="mt-[14px] group cursor-pointer">
+                            <p
+                                class="font-[700] group-hover:underline uppercase text-[14px]"
+                            >
+                                Fashion
+                            </p>
+                            <p class="text-[18px]">Bunaai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- best path -->
+
+<div class="pt-[6em]">
+    <div class="mb-[60px]">
+        <h1 class="text-[1.5rem] md:text-[1.879rem]">
+            Take the best path forward
+        </h1>
+    </div>
+
+    <div class="flex flex-wrap">
+        <div
+            class="w-[100%] mb-[50px] md:mb-[28px] md:w-[50%] lg:w-[25%] px-0 md:px-[10px]"
+        >
+            <div class="mb-[20px]">
+                <img
+                    class="w-[36px] h-[36px]"
+                    src="./assets/online-business.svg"
+                    alt="business"
+                />
+            </div>
+            <div>
+                <h2
+                    class="mb-[10px] text-[1em] lg:text-[18px] font-[500]"
+                >
+                    Start an online business
+                </h2>
+                <p class="text-[16px]">
+                    Create a business, whether you’ve
+                    got a fresh idea or are looking for
+                    a new way to make money.
+                </p>
+            </div>
+        </div>
+
+        <div
+            class="w-[100%] mb-[50px] md:mb-[28px] md:w-[50%] lg:w-[25%] px-0 md:px-[10px]"
+        >
+            <div class="mb-[20px]">
+                <img
+                    class="w-[36px] h-[36px]"
+                    src="./assets/move-online.svg"
+                    alt="business"
+                />
+            </div>
+            <div>
+                <h2
+                    class="mb-[10px] text-[1em] lg:text-[18px] font-[500]"
+                >
+                    Move your business online
+                </h2>
+                <p class="text-[16px]">
+                    Turn your retail store into an
+                    online store and keep serving
+                    customers without missing a beat.
+                </p>
+            </div>
+        </div>
+
+        <div
+            class="w-[100%] mb-[50px] md:mb-[28px] md:w-[50%] lg:w-[25%] px-0 md:px-[10px]"
+        >
+            <div class="mb-[20px]">
+                <img
+                    class="w-[36px] h-[36px]"
+                    src="./assets/switch-shopify.svg"
+                    alt="business"
+                />
+            </div>
+            <div>
+                <h2
+                    class="mb-[10px] text-[1em] lg:text-[18px] font-[500]"
+                >
+                    Switch to Shopify
+                </h2>
+                <p class="text-[16px]">
+                    Bring your business to Shopify, no
+                    matter which ecommerce platform
+                    you’re currently using.
+                </p>
+            </div>
+        </div>
+
+        <div
+            class="w-[100%] mb-[50px] md:mb-[28px] md:w-[50%] lg:w-[25%] px-0 md:px-[10px]"
+        >
+            <div class="mb-[20px]">
+                <img
+                    class="w-[36px] h-[36px]"
+                    src="./assets/user.svg"
+                    alt="business"
+                />
+            </div>
+            <div>
+                <h2
+                    class="mb-[10px] text-[1em] lg:text-[18px] font-[500]"
+                >
+                    Hire a Shopify expert
+                </h2>
+                <p class="text-[16px]">
+                    Get set up with the help of a
+                    trusted freelancer or agency from
+                    the Shopify Experts Marketplace.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- sell section -->
+<div class="text-center md:mb-0 pt-[80px] px-[5%] md:px-0">
+<h1 class="text-[28px] lg:text-[2.5em]">
+With you wherever you’re going
+</h1>
+<div class="max-w-[604px] mx-auto">
+<p
+  class="text-[18px] lg:text-[20px] text-[#75748a] mt-[8px]"
+>
+  One platform with all the ecommerce and point of
+  sale features you need to start, run, and grow your
+  business.
+</p>
+</div>
+</div>
+<section
+class="pt-[80px] mt-[100px] lg:mt-0 mb-[20px] lg:mb-0 lg:max-w-[1215px] flex flex-wrap-reverse lg:flex-nowrap lg:justify-center md:items-center mx-auto"
+>
+<div class="mr-0 md:-mr-[30px] max-w-[1000px]">
+<video
+  class="w-[100%]"
+  autoplay="true"
+  loop="true"
+  playsinline="playsinline"
+  plays
+  muted
+>
+  <source
+      src="./assets/video-shopify.webm"
+      type="video/webm"
+  />
+
+  <source
+      src="./assets/video-shopify.mp4"
+      type="video/mp4"
+  />
+
+  Sorry, your browser doesn't support embedded videos.
+</video>
+</div>
+<div
+class="ml-0 px-[5%] md:px-0 lg:ml-[90px] w-full md:w-[570px] md:mx-auto lg:w-auto"
+>
+<h1 class="text-[1.875rem] pb-[20px]">
+  Sell everywhere
+</h1>
+<div>
+  <p class="text-[#75748a]">
+      Use one platform to sell products to anyone,
+      anywhere—in person with Point of Sale and online
+      through your website, social media, and online
+      marketplaces.
+  </p>
+</div>
+<div
+  class="flex items-center pt-[20px] gap-1 group cursor-pointer"
+>
+  <span
+      class="text-[1.125rem] font-[700] text-[#008060]"
+      >Explore ways to sell</span
+  >
+  <span
+      class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+  >
+      <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+      >
+          <path
+              fill="#008060"
+              d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+          ></path>
+      </svg>
+  </span>
+</div>
+</div>
+</section>
+
+<!-- sell section -->
+
+<section
+class="pt-[10px] mt-[100px] lg:mt-0 mb-[20px] lg:mb-0 lg:max-w-[1215px] flex flex-row-reverse flex-wrap-reverse lg:flex-nowrap lg:justify-center md:items-center mx-auto"
+>
+<div class="max-w-[700px] mx-auto">
+<img
+src="./assets/market-small.webp"
+alt="market"
+class="block w-[100%]"
+/>
+</div>
+<div
+class="ml-0 px-[5%] md:px-0 lg:ml-[90px] w-full md:w-[570px] md:mx-auto lg:w-auto"
+>
+<h1 class="text-[1.875rem] pb-[20px]">
+Market your business
+</h1>
+<div>
+<p class="text-[#75748a] max-w-[500px]">
+  Take the guesswork out of marketing with
+  built-in tools that help you create, execute,
+  and analyze digital marketing campaigns.
+</p>
+</div>
+<div
+class="flex items-center pt-[20px] gap-1 group cursor-pointer"
+>
+<span
+  class="text-[1.125rem] font-[700] text-[#008060]"
+  >Explore how to market your business
+</span>
+<span
+  class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+>
+  <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+  >
+      <path
+          fill="#008060"
+          d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+      ></path>
+  </svg>
+</span>
+</div>
+</div>
+</section>
+
+
+<!-- sell section -->
+
+<section
+class="pt-[0px] mt-[100px] lg:mt-0 mb-[20px] lg:mb-0 lg:max-w-[1215px] flex flex-wrap-reverse lg:flex-nowrap lg:justify-center md:items-center mx-auto"
+>
+<div class="mr-0 md:-mr-[30px] max-w-[1000px]">
+<img
+src="./assets/shopify-dashboard.svg"
+alt="market"
+class="block w-[100%]"
+/>
+</div>
+<div
+class="ml-0 px-[5%] md:px-0 lg:ml-[90px] w-full md:w-[570px] md:mx-auto lg:w-auto"
+>
+<h1 class="text-[1.875rem] pb-[20px]">
+Manage everything
+</h1>
+<div>
+<p class="text-[#75748a]">
+Gain the insights you need to grow—use a single
+dashboard to manage orders, shipping, and
+payments anywhere you go.
+</p>
+</div>
+<div
+class="flex items-center pt-[20px] gap-1 group cursor-pointer"
+>
+<span
+class="text-[1.125rem] font-[700] text-[#008060]"
+>Explore how to manage your business
+</span>
+<span
+class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+>
+    <path
+        fill="#008060"
+        d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+    ></path>
+</svg>
+</span>
+</div>
+</div>
+</section>
+
+
+<!-- Explore more -->
+
+<section
+class="px-[6%] bg-[#f3fcf4] mt-[40px] pt-[90px] pb-[120px]"
+>
+<div class="pb-[40px]">
+<h1 class="text-[24px] md:text-[30px] text-[#004c5c]">
+Explore more from Shopify in India
+</h1>
+</div>
+
+<div
+class="flex flex-col-reverse md:flex-row bg-[#FFFFFF] rounded-md"
+>
+<div
+class="w-[100%] px-[40px] py-[20px] pt-[40px] flex flex-col gap-4"
+>
+<p class="text-[14px] font-[700]">START</p>
+<h1
+class="text-[20px] lg:text-[24px] max-w-[500px]"
+>
+Launch your store with the help of a Shopify
+Expert
+</h1>
+<p class="text-[16px] max-w-[480px]">
+Find hundreds of experts from India ready to
+help you get your store up and running, from
+choosing a theme to building a fully customized
+site.
+</p>
+
+<div
+class="flex items-center pt-[20px] gap-1 group cursor-pointer"
+>
+<span
+    class="text-[1.125rem] font-[700] text-[#008060]"
+    >Browse Experts in india
+</span>
+<span
+    class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+>
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+    >
+        <path
+            fill="#008060"
+            d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+        ></path>
+    </svg>
+</span>
+</div>
+</div>
+<div class="w-[100%]">
+<img
+class="w-[100%] h-[100%] object-cover"
+src="./assets/person.webp"
+alt="person"
+/>
+</div>
+</div>
+</section>
+<!-- Empowering world -->
+<section class="bg-[#FFFFFF] py-[60px]">
+    <div class="max-w-[88.4375em] mx-auto">
+        <div class="max-w-[52em] px-[5%] flex flex-col gap-4">
+            <div>
+                <h1 class="text-[24px] lg:text-[30px] max-w-[30rem]">
+                    Empowering independent business owners
+                    everywhere
+                </h1>
+                <p class="text-[20px] lg:text-[24px] mt-[20px]">
+                    Millions of businesses in
+                    <strong>175 countries</strong> around the
+                    world have made over
+                    <strong>$496 billion USD</strong> in sales
+                    using Shopify.
+                </p>
+  
+                <div
+                    class="flex items-center pt-[30px] gap-1 group cursor-pointer"
+                >
+                    <span
+                        class="text-[16px] font-[700] text-[#008060]"
+                        >Learn more about Shopify
+                    </span>
+                    <span
+                        class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                        >
+                            <path
+                                fill="#008060"
+                                d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+                            ></path>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-[850px] pt-[50px] mx-auto">
+            <img
+                src="./assets/world.png"
+                class="block w-full h-full"
+                alt="world"
+            />
+        </div>
+    </div>
+  </section>
+  
+  <!-- testimonial -->
+  
+  <section
+  class="px-[6%] bg-[#FFFFFF] mt-[40px] pt-[90px] pb-[40px]"
+  >
+  <div
+      class="flex flex-col md:flex-row bg-[#002e25] text-white rounded-md"
+  >
+      <div class="w-[100%]">
+          <img
+              class="w-[100%] h-[100%] object-cover"
+              src="./assets/testimonial.jpg"
+              alt="person"
+          />
+      </div>
+      <div
+          class="w-[100%] px-[40px] py-[80px] pt-[40px] flex flex-col gap-4"
+      >
+          <div class="text-center">
+              <h2
+                  class="text-[20px] lg:text-[30px] max-w-[400px] mx-auto font-[500]"
+              >
+                  “Shopify was my knight in shining armor when
+                  I exhausted every other possibility of
+                  getting my online store up and running. It
+                  was stunningly easy to use, with more
+                  features and plug-ins that I didn’t even
+                  know I wanted.”
+              </h2>
+              <div
+                  class="mt-[60px] mb-[30px] mx-auto max-w-[145px] h-[70px]"
+              >
+                  <img
+                      src="./assets/alicia-souza.png"
+                      alt="allice-person"
+                      class="block h-full w-full"
+                  />
+              </div>
+              <div>
+                  <p
+                      class="text-[15px] lg:text-[20px] font-[500]"
+                  >
+                      Alicia | Alicia Souza
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <!-- brands that use shopify -->
+    <section
+      class="flex flex-wrap mt-[70px] gap-10 items-center justify-evenly -mx-[16px]"
+      >
+        <div>
+            <img src="./assets/bajaao.png" alt="brand-1" />
+        </div>
+        <div>
+            <img src="./assets/johnjacobs.png" alt="brand-2" />
+        </div>
+        <div>
+            <img src="./assets/kylie.png" alt="brand-3" />
+        </div>
+        <div>
+            <img src="./assets/nush.webp" alt="brand-4" />
+        </div>
+        <div>
+            <img src="./assets/yogabar.webp" alt="brand-5" />
+        </div>
+        <div>
+            <img src="./assets/starstruck.png" alt="brand-6" />
+        </div>
+        <div>
+            <img src="./assets/mcaffeine.png" alt="brand-7" />
+        </div>
+    </section>
+  </section>
+  
+  <!-- get help section -->
+  <section class="pt-[50px] pb-[80px]">
+    <div
+        class="flex bg-[#fbf7ed] flex-wrap md:flex-nowrap rounded-md"
+    >
+        <div
+            class="w-[100%] pl-[6%] py-[80px] pt-[40px] flex flex-col gap-4"
+        >
+            <div class="max-w-[453px] pt-[40px]">
+                <h1 class="text-[40px] leading-tight">
+                    Get the help you need, every step of the way
+                </h1>
+            </div>
+            <div class="mt-[20px] gap-10 md:gap-3 grid grid-cols-1 md:grid-cols-2">
+                <div class="">
+                    <h2 class="text-[18px] pb-[20px] font-[500]">
+                        Shopify support
+                    </h2>
+                    <p class="font-[400] max-w-[600px] md:max-w-[250px] opacity-80">
+                      Contact support 24/7, whether you’re troubleshooting issues or looking for business advice.
+                    </p>
+                    <div
+                        class="flex items-center pt-[20px] gap-1 group cursor-pointer"
+                    >
+                        <span
+                            class="text-[16px] font-[700] text-[#008060]"
+                            >Contact Support
+                        </span>
+                        <span
+                            class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                            >
+                                <path
+                                    fill="#008060"
+                                    d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+                                ></path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="">
+                    <h2 class="text-[18px] pb-[20px] font-[500]">
+                        Shopify App Store
+                    </h2>
+                    <p class="font-[400] max-w-[600px] md:max-w-[250px] opacity-80">
+                      Add features and functionality to your business with 6,000+ apps that integrate directly with Shopify.
+                    </p>
+                    <div
+                        class="flex items-center pt-[20px] gap-1 group cursor-pointer w-[250px]"
+                    >
+                        <span
+                            class="text-[16px] font-[700] text-[#008060]"
+                            >Visit the Shopify App Store
+                        </span>
+                        <span
+                            class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                            >
+                                <path
+                                    fill="#008060"
+                                    d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+                                ></path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="">
+                    <h2 class="text-[18px] pb-[20px] font-[500]">
+                        Shopify Experts Marketplace
+                    </h2>
+                    <p class="font-[400] max-w-[600px] md:max-w-[250px] opacity-80">
+                      Hire a Shopify expert to help you with everything from store setup to SEO.
+                    </p>
+                    <div
+                        class="flex items-center pt-[20px] gap-1 group cursor-pointer w-[375px]"
+                    >
+                        <span
+                            class="text-[16px] font-[700] text-[#008060]"
+                            >Explore the Shopify Experts Marketplace
+                        </span>
+                        <span
+                            class="inline-block w-[20px] group-hover:translate-x-2 duration-500"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                            >
+                                <path
+                                    fill="#008060"
+                                    d="M17.707 9.293l-5-5a1 1 0 00-1.414 1.414L14.586 9H3a1 1 0 100 2h11.586l-3.293 3.293a1 1 0 001.414 1.414l5-5a1 1 0 000-1.414z"
+                                ></path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+        <div
+            class="w-[100%] md:w-[50%] md:right-0 lg:h-auto lg:relative lg:w-[100%]"
+        >
+            <img
+                class="w-[100%] h-[100%] object-cover object-center"
+                src="./assets/desktop.webp"
+                alt="person"
+            />
+        </div>
+    </div>
+  </section>
+  
+  <!-- start your business  -->
+  
+  <section class="flex justify-center pt-[50px] pb-[50px]">
+    <div class="text-center">
+        <h1
+            class="text-[24px] lg:text-[30px] pb-[14px]"
+        >
+            Start your business journey with Shopify
+        </h1>
+        <p
+            class="text-[16px] lg:text-[18px] max-w-[740px] mx-auto text-[#6b7177] pb-[28px]"
+        >
+            Try Shopify for free, and explore all the tools and
+            services you need to start, run, and grow your
+            business.
+        </p>
+        <span
+            class="cursor-pointer text-[16px] font-[700] bg-shopify-green hover:bg-shopify-green-dark hover:shadow-xl duration-200 text-white box-border rounded-[4px] px-[30px] py-[15px] shadow-lg"
+            ><button>Start free trial</button>
+        </span>
+    </div>
+  </section>
+  
+  <div
+      class="px-[6%] flex justify-center md:justify-end pb-[50px]"
+  >
+      <div>
+          <div
+              class="flex items-center pt-[20px] gap-1 group cursor-pointer"
+          >
+              <a href="#top">
+                  <span
+                      class="text-[1.125rem] font-[700] text-[#008060]"
+                      >Back to top
+                  </span>
+                  <span
+                      class="inline-block w-[20px] group-hover:-translate-y-2 duration-500"
+                  >
+                      <i
+                          class="fa-solid fa-arrow-up text-[#008060]"
+                      ></i>
+                  </span>
+              </a>
+          </div>
+      </div>
+  </div>
+  </main>
+  </div>
+<!-- footer -->
+<footer class="flow-root mx-auto relative bg-[#002e25]">
+    <div class="flow-root py-0 px-[5%] box-border">
+        <div
+            class="px-0 float-left w-full relative lg:px-[18px] text-center md:text-left"
+        >
+            <div
+                class="border-b border-[rgba(210,213,217,0.1)] mb-[1.526em]"
+            >
+                <div class="py-[10px] md:py-0">
+                    <a
+                        class="leading-[70xp] border-b-[2px] border-[#002e25] py-[5px] md:py-[20px] hover:border-b-[#FFFFFF] transition-all duration-300 font-[700] text-[1em] mr-[1em] text-white inline-block"
+                        href="#"
+                        >About</a
+                    >
+                    <a
+                        class="leading-[70xp] border-[2px] border-[#002e25] py-[5px] md:py-[20px] hover:border-b-[#FFFFFF] transition-all duration-300 font-[700] text-[1em] mr-[1em] text-white inline-block"
+                        href="#"
+                        >Careers</a
+                    >
+                    <a
+                        class="leading-[70xp] border-[2px] border-[#002e25] py-[5px] md:py-[20px] hover:border-b-[#FFFFFF] transition-all duration-300 font-[700] text-[1em] mr-[1em] text-white inline-block"
+                        href="#"
+                        >Press and Media</a
+                    >
+                    <a
+                        class="leading-[70xp] border-[2px] border-[#002e25] py-[5px] md:py-[20px] hover:border-b-[#FFFFFF] transition-all duration-300 font-[700] text-[1em] mr-[1em] text-white inline-block"
+                        href="#"
+                        >Shopify Plus</a
+                    >
+                    <a
+                        class="leading-[70xp] border-[2px] border-[#002e25] py-[5px] md:py-[20px] hover:border-b-[#FFFFFF] transition-all duration-300 font-[700] text-[1em] mr-[1em] text-white inline-block"
+                        href="#"
+                        >Sitemap</a
+                    >
+                </div>
+            </div>
+        </div>
+  
+        <div class="w-[50%] px-[4px] float-left relative lg:px-[18px]">
+            <div>
+                <h2
+                    class="mb-[0.625em] text-white text-[14px] font-[700] uppercase"
+                >
+                    Online Store
+                </h2>
+            </div>
+  
+            <div class="md:columns-3">
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Sell online</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Features</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Examples</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Website builder</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Online retail</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Ecommerce website</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Domain names</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Themes</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Shopping cart</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Ecommerce hosting</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Mobile commerce</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Ecommerce software</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Online store builder</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Dropshipping Business</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Store themes</a
+                    >
+                </li>
+            </div>
+        </div>
+  
+        <div
+            class="w-[50%] mb-[28px] md:w-[16%] px-[4px] float-left relative lg:px-[18px]"
+        >
+            <div>
+                <h2
+                    class="mb-[0.625em] text-white text-[14px] font-[700] uppercase"
+                >
+                    Point Of sale
+                </h2>
+            </div>
+            <div>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Point of sale</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Features</a
+                    >
+                </li>
+            </div>
+        </div>
+  
+        <div
+            class="w-[50%] md:w-[16%] px-[4px] float-left relative lg:px-[18px]"
+        >
+            <div>
+                <h2
+                    class="mb-[0.625em] text-white text-[14px] font-[700] uppercase"
+                >
+                    Support
+                </h2>
+            </div>
+  
+            <div class="">
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >24/7 support</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Shopify Help Center</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Shopify Community</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >API documentation</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Free tools</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Free stock photos</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Websites for sale</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Logo Maker</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Business name generator</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Research</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Legal</a
+                    >
+                </li>
+            </div>
+        </div>
+  
+        <div
+            class="md:w-[16%] pt-[28px] md:pt-0 px-[4px] float-left relative lg:px-[18px]"
+        >
+            <div>
+                <h2
+                    class="mb-[0.625em] text-white text-[14px] font-[700] uppercase"
+                >
+                    Shopify
+                </h2>
+            </div>
+  
+            <div class="gutter-bottom--mobile footer__-column-list">
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Contact</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Partner program</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Afflicate program</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >App developers</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Investors</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Blog topics</a
+                    >
+                </li>
+                <li class="list-none">
+                    <a
+                        class="block text-[#b6babf] text-[14px] py-[5px] hover:text-[#FFFFFF] transition-all duration-300"
+                        href="#"
+                        >Community Events</a
+                    >
+                </li>
+            </div>
+        </div>
+    </div>
+  
+    <!-- footer bottom -->
+    <div
+        class="py-[2.2em] border-t mt-[28px] border-[rgba(210,213,217,0.1)]"
+    >
+        <div
+            class="flex flex-wrap justify-center gap-4 md:justify-between items-center px-[5%]"
+        >
+            <div class="flex flex-wrap gap-2">
+                <a href="#" class="w-[22px] block mr-[20px]"
+                    ><svg
+                        fill="#FFFFFF"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 30"
+                    >
+                        <path
+                            d="M15.6 30V19.4h5V15h-5v-3.1c0-1 .6-1.9 1.3-1.9h3.8V5.6h-3.8c-3.1 0-5.6 2.8-5.6 6.3V15H7.5v4.4h3.8v10.1C4.8 27.9 0 22 0 15 0 6.7 6.7 0 15 0s15 6.7 15 15c0 8.1-6.4 14.7-14.4 15z"
+                        ></path>
+                    </svg>
+                  </a>
+                <a href="#" class="w-[22px] block mr-[20px]"
+                    ><svg
+                        fill="#FFFFFF"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 30"
+                    >
+                        <path
+                            d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zm-3.7-5.5c-.8.3-1.6.6-2.5.7.9-.5 1.5-1.4 1.8-2.4-.8.5-1.7.8-2.7 1-.8-.8-1.9-1.4-3.1-1.4-2.4 0-4.2 1.9-4.2 4.3 0 .3 0 .7.1 1-3.5-.2-6.7-1.9-8.8-4.5-.3.7-.6 1.4-.6 2.2 0 1.5.7 2.8 1.9 3.5-.7 0-1.4-.2-1.9-.5 0 2.1 1.5 3.8 3.4 4.2-.3.1-.7.1-1.1.1-.3 0-.6 0-.8-.1.5 1.7 2.1 2.8 4 2.9-1.5 1.1-3.3 1.9-5.3 1.9-.3 0-.7 0-1-.1 1.9 1.2 4.1 1.9 6.5 1.9 7.8 0 12.1-6.5 12.1-12.1v-.6c.9-.4 1.6-1.2 2.2-2z"
+                        ></path>
+                      </svg>
+                  </a>
+                <a href="#" class="w-[22px] block mr-[20px]"
+                    ><svg
+                        fill="#FFFFFF"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 30"
+                    >
+                        <path
+                            d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zm-5.6 0c0-6.9 0-6.9-9.4-6.9s-9.4 0-9.4 6.9 0 6.9 9.4 6.9 9.4 0 9.4-6.9zm-11.9-3.7l6.3 3.8-6.3 3.8v-7.6z"
+                        ></path></svg>
+                      </a>
+                <a href="#" class="w-[22px] block mr-[20px]"
+                    ><svg
+                        fill="#FFFFFF"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 18 18"
+                    >
+                        <defs></defs>
+                        <path
+                            fill-rule="evenodd"
+                            d="M9 0c5 0 9 4 9 9s-4 9-9 9-9-4-9-9 4-9 9-9zM6.7 3.5h4.7c1.8 0 3.2 1.4 3.2 3.1v4.7c0 1.7-1.4 3.1-3.2 3.1H6.7c-1.8 0-3.2-1.4-3.2-3.1V6.7c0-1.8 1.4-3.2 3.2-3.2zM9 6.2c1.6 0 2.9 1.3 2.9 2.9S10.6 12 9 12s-3-1.3-3-2.9 1.3-2.9 3-2.9zm0 1.2c.9 0 1.7.8 1.7 1.7 0 .9-.8 1.7-1.7 1.7-.9 0-1.7-.8-1.7-1.7 0-.9.7-1.7 1.7-1.7zm2.8-1.7c.3 0 .6.2.6.6 0 .3-.2.6-.6.6-.3 0-.6-.2-.6-.6 0-.4.3-.6.6-.6zm-4.6-1h3.7c1.4 0 2.5 1.1 2.5 2.5v3.7c0 1.4-1.1 2.5-2.5 2.5H7.2c-1.4 0-2.5-1.1-2.5-2.5V7.2c-.1-1.4 1.1-2.5 2.5-2.5z"
+                            clip-rule="evenodd"
+                        ></path></svg>
+                      </a>
+                <a href="#" class="w-[22px] block mr-[20px]"
+                    ><svg
+                        fill="#FFFFFF"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 30"
+                    >
+                        <path
+                            d="M30 15c0 8.3-6.7 15-15 15S0 23.3 0 15 6.7 0 15 0s15 6.7 15 15zM11.3 7.8c0-1.2-1-2.2-2.5-2.2s-2.5.9-2.5 2.2c0 1.2 1 2.2 2.5 2.2s2.5-1 2.5-2.2zm-.7 4.1H6.9v10.6h3.8V11.9zm13.8 5c0-3.4-1.7-5.6-4.4-5.6-1.5 0-2.6.9-3.1 2.3l-.1-1.6H13c0 .4.1 2.5.1 2.5v8.1h3.8V17c0-1.5.7-2.5 1.8-2.5s1.9.6 1.9 2.5v5.6h3.8v-5.7z"
+                        ></path></svg>
+                      </a>
+                <a href="#" class="w-[22px] block mr-[20px]"
+                    ><svg
+                        fill="#FFFFFF"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 30 30"
+                    >
+                        <path
+                            d="M15 30c-1.5 0-2.9-.2-4.3-.6.6-.9 1.2-2 1.5-3.2.2-.7 1-4.1 1-4.1.5 1 2 1.9 3.7 1.9 4.8 0 8.1-4.4 8.1-10.3 0-4.4-3.8-8.6-9.5-8.6-7.1-.1-10.6 5-10.6 9.3 0 2.6 1 4.9 3.1 5.7.3.1.7 0 .8-.4.1-.2.2-.9.3-1.2.1-.4 0-.5-.2-.8-.6-.7-1-1.6-1-3 0-3.8 2.8-7.2 7.4-7.2 4 0 6.2 2.5 6.2 5.8 0 4.3-1.9 8-4.8 8-1.6 0-2.7-1.3-2.4-2.9.5-1.9 1.3-4 1.3-5.3 0-1.2-.7-2.3-2-2.3-1.6 0-2.9 1.7-2.9 3.9 0 1.4.5 2.4.5 2.4S9.5 24 9.3 25.3c-.3 1.1-.4 2.4-.3 3.5-5.3-2.4-9-7.7-9-13.8C0 6.7 6.7 0 15 0s15 6.7 15 15-6.7 15-15 15z"
+                        ></path></svg>
+                      </a>
+            </div>
+            <div class="flex justify-end items-center">
+                <a
+                    class="inline-block mr-[20px] text-[#B6BABF] hover:text-[#FFFFFF] transition-all duration-300"
+                    href="#"
+                    >Terms of Service</a
+                >
+                <a
+                    class="inline-block mr-[20px] text-[#B6BABF] hover:text-[#FFFFFF] transition-all duration-300"
+                    href="#"
+                    >Privacy Policy</a
+                >
+                <span class="text-[#FFFFFF] flex items-center gap-2 cursor-pointer">
+                    <span class="inline-block w-[16px]"
+                        ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 45 45"
+                        >
+                            <path
+                                fill="#FFFFFF"
+                                d="M22.5 2A20.5 20.5 0 1043 22.5 20.52 20.52 0 0022.5 2zm-4.23 28.79A33.67 33.67 0 0022 31a34.54 34.54 0 004.76-.33 30.45 30.45 0 01-4.26 9 30.41 30.41 0 01-4.23-8.88zM22 28a29.86 29.86 0 01-4.47-.34A31 31 0 0117 22a29.87 29.87 0 01.36-4.64A30.13 30.13 0 0122 17a31 31 0 015.66.53A29.85 29.85 0 0128 22a31 31 0 01-.5 5.5 31 31 0 01-5.5.5zm-7.64-1a25.22 25.22 0 01-9.15-4.5 24.89 24.89 0 019-4.48A33.56 33.56 0 0014 22a34.61 34.61 0 00.36 5zM22.5 5.21a25.25 25.25 0 014.5 9.15 34.61 34.61 0 00-5-.36 33.58 33.58 0 00-4 .24 25.24 25.24 0 014.5-9.03zm8.29 13.06a30.41 30.41 0 018.89 4.23 30.46 30.46 0 01-9 4.26A34.54 34.54 0 0031 22a33.67 33.67 0 00-.21-3.73zm8.82.59A33.75 33.75 0 0030.26 15a29.2 29.2 0 00-3.89-9.56 17.54 17.54 0 0113.24 13.42zm-21-13.41a29.16 29.16 0 00-3.85 9.35 29.16 29.16 0 00-9.35 3.85A17.54 17.54 0 0118.64 5.44zM5.44 26.36a29.2 29.2 0 009.56 3.9 33.75 33.75 0 003.86 9.36A17.54 17.54 0 015.44 26.36zm20.7 13.25a33.73 33.73 0 003.91-9.56 33.73 33.73 0 009.56-3.91 17.55 17.55 0 01-13.47 13.47z"
+                            ></path></svg>
+                          </span>
+                    <span>India</span>
+                    <span class="inline-block w-[12px]"
+                        ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 10 5"
+                        >
+                            <path
+                                fill="#FFFFFF"
+                                d="M0 0l5 5 5-5H0z"
+                            ></path></svg>
+                          </span>
+                </span>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
