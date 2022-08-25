@@ -31,7 +31,7 @@ More than 1 day.
 
 ## Live link
 
-
+[Shopify Clone](https://shopify-clone-souritaray.netlify.app/)
 
 ## Contact me on:
 
